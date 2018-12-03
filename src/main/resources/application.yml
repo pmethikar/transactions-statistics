@@ -1,0 +1,11 @@
+# Logging
+logging:
+  level:
+    root: INFO
+
+---
+spring:
+  jackson.deserialization.FAIL_ON_UNKNOWN_PROPERTIES: true
+
+txstat:
+  purge.delay.milis: 2000
